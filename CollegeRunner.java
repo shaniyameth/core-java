@@ -1,4 +1,4 @@
-class UniversityRunner{
+class CollegeRunner{
 public static void main(String[] args){
 University myUniversity = new University();
 }
