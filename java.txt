@@ -1,0 +1,46 @@
+1)what is java?
+->java is high level programing language which is used to coding and it is platform indipendend programing language.
+
+2)explain how java execute?
+->java is platform independent programing language which runs in cmd command by understanding with storing heap memory and geting stored through meta space and then compile it in cmp command to show the output in cmd itself the txtansation for saving the java file is .java and for running it takes "javac class name .java"
+
+
+3)what is data type?and its types?
+->data type is a special keywords which aste used to perform tasks there are several types of data types like int,string,double,float,etc......   which are  used in java programing language for performing specific task in a program the data types playes an important role in java and without correct data types the java program does not work correctly and it shows error
+  mainly the data types asre used to assaign the variabels inside the class.the data types are special types of character which playes an important role in the java programing language
+->Types of Data Types:-
+  int,boolean,float,char,long,doubleetc....		   
+   this all types of data types are used in java for programing or for coding and for understand the variabels in an program.
+
+
+4)what is variable?and it types?
+-> variable is which is used inside the class for adding the class name's property and usages in it to declare the values or variabeles in it .
+ basically the variabeles used to if consider class name as a cycle then its properties like seat,wheel,handle,etc...... is properties then these properties is known as variabeleswhich is inside the class
+ the variabels must be declare inside the class
+->Types of variable:-
+  global variable,local variable,instance variable.....
+  global variabeles means constent variablethe propertieswhich are same in every class like in cycle there is fixed variables is knoen as global variabeles like seat wheel handle break etc....
+  local meanse inside the class the difference like gear,tyre size etc.......
+  
+  5)what is an array?
+  ->array is a collection of homogenius elements where the values are stored in a single variable used to store the data in a single variabele.
+ 
+ 
+ 6)what is method?types of method?
+ -> method are used to a java programing language where method declares inside a class and then the methods are initialize the values in the java program 
+multiple values stored in a single variable.
+ -> types:-
+    without parameter with written type     
+    with parameter no written type
+    with written type with parameter
+	without parameter without written type
+	
+	
+	
+	
+7)what is constructor?
+-> constructor are used to declare inside the class .
+    types:-default,parameterised etc....
+	
+	
+
