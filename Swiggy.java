@@ -1,47 +1,17 @@
 class Swiggy{
- 
- static int checkItem(String foodItem){
- int price=0;
- if("R M biriyani"==foodItem){
- System.out.println("food item is:"+foodItem);
- price=250;
- return price;
- }else if("fried rice"==foodItem){
- System.out.println("food item is:"+foodItem);
- price=90;
- return price;
- }else if("chilli chiken"==foodItem){
- System.out.println("food item is:"+foodItem);
- price=150;
- return price;
- }else{
- System.out.println("food item not found");
- return 0;
- }}
- 
-  static int checkItem(String foodItem,int price,int noItems){
- int totalprice=0;
- if("R M biriyani"==foodItem){
- totalprice=price*noItems;
- return totalprice;
- }else if("fried rice"==foodItem){
-  totalprice=price*noItems;
- return totalprice;
- }else if("chilli chiken"==foodItem){
-  totalprice=price*noItems;
- return totalprice;
- }else{
- return 0;
- }
- }
- 
- public static void main(String[]args){
- int price=0;
- price=Swiggy.checkItem("fried rice");
- System.out.println("for one plate:"+price);
- 
- int totalprice=Swiggy.checkItem("fried rice",price,5);
- System.out.println("total plate:"+totalprice);
- 
- }
- }
+    static void collabCompany(){
+        System.out.println("The Company Collab With Swiggy is Swiggy Limited");
+        long user = numberOfUsers();
+        System.out.println("The total Number Of Users in Swiggy Are: "+user);
+        founderName("Sriharsha Majety, Nandan Reddy & Rahul Jaimini");
+    }
+    static long numberOfUsers(){
+        founderName("Sriharsha Majety, Nandan Reddy & Rahul Jaimini");
+        long totalUsers = 100000000l;
+        return totalUsers;
+    }
+    static void founderName(String name){
+        System.out.println("The founders of Swiggy are: "+name);
+    }
+}
+

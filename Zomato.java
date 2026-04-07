@@ -1,11 +1,18 @@
-class Zomato2{
-static void checkItem(String foodItem){
-    System.out.println("checking foodItem :" + fooditem);
+class Zomato{
+    static void collabCompany(){
+        System.out.println("The Company Collab With Zomato is Zomato Limited");
+        long user = numberOfUsers();
+        System.out.println("The total Number Of Users in Zomato Are: "+user);
+        founderName("Deepinder Goyal & Pankaj Chaddah");
+    }
+    static long numberOfUsers(){
+        founderName("Deepinder Goyal & Pankaj Chaddah");
+        long totalUsers = 80000000l;
+        return totalUsers;
+    }
+    static void founderName(String name){
+        System.out.println("The founders of Zomato are: "+name);
+    }
 }
-static void checkItem(String foodItem , int noItem){
-System.out.println("No of item"+noItem);
-}
-static void checkItem(int item){
-System.out.println("item"+item)
-}
-}
+
+
